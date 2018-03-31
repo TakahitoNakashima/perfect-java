@@ -1,0 +1,14 @@
+class Book {
+	String title;
+	String author;
+	
+	void printTitle() {
+		System.out.println(this.title); // this.は省略可能
+	}
+	
+	pubic static void main(String args) {
+		Book book = new Book();
+		book.title = "Peopleware";
+		book.printTitle();
+	}
+}
