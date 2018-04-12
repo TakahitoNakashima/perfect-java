@@ -5,10 +5,6 @@ class BookConstructer {
 	private final String author;
 	private final int price;
 	
-	BookConstructer(String title, String author) {
-		this(title, author, 1000); // 下記のコンストラクタを呼ぶ
-	}
-	
 	BookConstructer(String title, String author, int price) {
 		this.title = title;
 		this.author = author;
